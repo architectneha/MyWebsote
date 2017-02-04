@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\Controllers\HomeController.js" />
+    <Content Include="App\Controllers\LoginController.js" />
     <Content Include="App\css\bootstrap-theme.css" />
     <Content Include="App\css\bootstrap-theme.min.css" />
     <Content Include="App\css\bootstrap.css" />
@@ -126,12 +127,22 @@
     <Content Include="App\js\bootstrap.min.js" />
     <Content Include="App\js\jquery-3.1.1.min.js" />
     <Content Include="App\js\npm.js" />
+    <Content Include="App\js\routeConfig.js" />
     <Content Include="App\js\tmwapp.js" />
+    <Content Include="App\Pages\HomePage.html" />
+    <Content Include="App\Pages\LoginPage.aspx" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\Pages\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Pages\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -159,7 +170,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\Pages\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
