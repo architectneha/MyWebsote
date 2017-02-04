@@ -109,7 +109,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\Controllers\HomeController.js" />
+    <Content Include="App\css\bootstrap-theme.css" />
+    <Content Include="App\css\bootstrap-theme.min.css" />
+    <Content Include="App\css\bootstrap.css" />
+    <Content Include="App\css\bootstrap.min.css" />
+    <Content Include="App\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="App\js\angular-animate.js" />
+    <Content Include="App\js\angular-cookies.js" />
+    <Content Include="App\js\angular-message-format.js" />
+    <Content Include="App\js\angular-messages.js" />
+    <Content Include="App\js\angular-resource.js" />
+    <Content Include="App\js\angular-route.js" />
+    <Content Include="App\js\angular.js" />
+    <Content Include="App\js\bootstrap.js" />
+    <Content Include="App\js\bootstrap.min.js" />
+    <Content Include="App\js\jquery-3.1.1.min.js" />
+    <Content Include="App\js\npm.js" />
+    <Content Include="App\js\tmwapp.js" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +143,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App\css\bootstrap-theme.css.map" />
+    <Content Include="App\css\bootstrap-theme.min.css.map" />
+    <Content Include="App\css\bootstrap.css.map" />
+    <Content Include="App\css\bootstrap.min.css.map" />
+    <Content Include="App\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="App\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,9 +159,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App\Pages\" />
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
