@@ -6,11 +6,11 @@ tmwapp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
     .when("/", {
         templateUrl: "App/Pages/HomePage.html",
-        controller: "App/Controllers/HomeController.js"
+        controller: "App/Controllers/HomeController"
     })
     .when("/Login", {
         templateUrl: "App/Pages/LoginPage.aspx",
-        controller: "App/Controllers/LoginController.js"
+        controller: "App/Controllers/LoginController"
     })
     .otherwise({
         redirectTo : "/"
